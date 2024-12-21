@@ -24,9 +24,8 @@ export const Counter = () => {
     setInterval(actualizarCronometro, 1000);
     return(
         <div className="contenedor-principal">
-            <div className="counter-container" id='crono'>
+            <div className="card container" id='crono'>
                 00:00:00
-
             </div>
         </div>
     )
